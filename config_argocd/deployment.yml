@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web_app
+  namespace: default
+  labels:
+    app: web_app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: web_app
+  template:
+    metadata:
+      labels:
+        app: web_app
+    spec:
+      nodeSelector:
+        "beta.kubernetes.io/os": linux
+      containers:
+        - name: web_app
+          image: web_app:latest
+          imagePullPolicy: Never
+          ports:
+            - name: http
+              containerPort: 3000
