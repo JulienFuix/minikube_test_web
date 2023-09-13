@@ -24,4 +24,5 @@ yarn-error.log*
 
 /config_argocd/cluster-role.yml
 /config_argocd/project.yml
-/config_argocd/service.yml
+/config_argocd/role_deployment.yml
+/config_argocd/role_deployment_binding.yml
