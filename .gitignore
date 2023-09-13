@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+/config_argocd/cluster-role.yml
+/config_argocd/project.yml
