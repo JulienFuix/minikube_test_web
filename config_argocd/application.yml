@@ -1,14 +1,14 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: web_app
+  name: basicwebapp
   namespace: myargocd
 spec:
-  project: default
+  project: web
   source:
     repoURL: https://github.com/JulienFuix/minikube_test_web
     targetRevision: HEAD
     path: config_argocd
   destination:
     server: https://kubernetes.default.svc
-    namespace: web
+    namespace: default
