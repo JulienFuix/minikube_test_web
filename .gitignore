@@ -26,3 +26,4 @@ yarn-error.log*
 /config_argocd/project.yml
 /config_argocd/role_dp_sv.yml
 /config_argocd/role_dp_sv_binding.yml
+/config_argocd/cluster.yml

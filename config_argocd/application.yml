@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: basicwebapp
-  namespace: myargocd
+  namespace: argocd
 spec:
   project: web
   source:
