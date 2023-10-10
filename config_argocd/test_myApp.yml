@@ -2,3 +2,4 @@ apiVersion: "example.com/v1"
 kind: WebApp
 metadata:
   name: my-new-webapp-object
+  image: "basicwebapp:latest"
