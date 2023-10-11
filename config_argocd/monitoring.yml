@@ -3,11 +3,11 @@ kind: ServiceMonitor
 metadata:
   name: web-monitor
   labels:
-    app: basicwebapp
+    app: basicwebapp:latest
 spec:
   selector:
     matchLabels:
-      app: basicwebapp
+      app: basicwebapp:latest
   endpoints:
   - port: "9090"
     path: /metrics
