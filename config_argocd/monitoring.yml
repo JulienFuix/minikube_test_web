@@ -9,7 +9,7 @@ spec:
     matchLabels:
       app: basicwebapp
   endpoints:
-  - port: web
+  - port: "9090"
     path: /metrics
   namespaceSelector:
     matchNames:
