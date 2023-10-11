@@ -27,3 +27,7 @@ yarn-error.log*
 /config_argocd/role_dp_sv.yml
 /config_argocd/role_dp_sv_binding.yml
 /config_argocd/cluster.yml
+/config_argocd/monitoring.yml
+/config_argocd/myApp_CRD.yml
+/config_argocd/prometheus.yml
+/config_argocd/test_myApp.yml
